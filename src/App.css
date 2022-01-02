@@ -25,3 +25,7 @@ body {
   align-items: center;
   margin: 1rem;
 }
+
+.container {
+  padding-bottom: 1rem;
+}
