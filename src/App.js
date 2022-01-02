@@ -1,20 +1,11 @@
 import React from "react";
 import "./App.css";
-import Rotate from "./components/Rotate";
-import FramerMotion from "./components/FramerMotion"
-import Alert from 'react-bootstrap/Alert'
+import Mount from "./components/Mount";
 
 export default function App() {
   return (
     <div>
-      <Rotate/>
-      <Divider />
-      <FramerMotion/>
-      <Divider />
+      <Mount/>
     </div>
   );
-}
-
-const Divider = () => {
-  return <Alert variant="dark"></Alert>
 }

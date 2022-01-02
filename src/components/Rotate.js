@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import ".././App.css"
 
 const Rotate = () => {
@@ -8,7 +8,7 @@ const Rotate = () => {
   const variant = {
     active: {
       rotate: 360,
-      x: 1000,
+      x: 850,
       background: 'lightcoral'
     },
     inactive: {
